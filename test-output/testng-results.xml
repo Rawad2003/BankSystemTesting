@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="٢٠٢٦-٠٧-٣٠T١٤:٣٧:٠٤ IDT" name="Default suite" finished-at="٢٠٢٦-٠٧-٣٠T١٤:٣٧:٠٥ IDT" duration-ms="839">
+    <groups>
+    </groups>
+    <test started-at="٢٠٢٦-٠٧-٣٠T١٤:٣٧:٠٤ IDT" name="Default test" finished-at="٢٠٢٦-٠٧-٣٠T١٤:٣٧:٠٥ IDT" duration-ms="839">
+      <class name="com.project.bank.system.login.LoginTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.project.bank.system.login.LoginTest@5158b42f]" started-at="٢٠٢٦-٠٧-٣٠T١٤:٣٦:٥٥ IDT" name="initDriver" finished-at="٢٠٢٦-٠٧-٣٠T١٤:٣٧:٠٤ IDT" duration-ms="8760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="loginTesting()[pri:0, instance:com.project.bank.system.login.LoginTest@5158b42f]" started-at="٢٠٢٦-٠٧-٣٠T١٤:٣٧:٠٤ IDT" name="loginTesting" finished-at="٢٠٢٦-٠٧-٣٠T١٤:٣٧:٠٥ IDT" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTesting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.project.bank.system.login.LoginTest@5158b42f]" started-at="٢٠٢٦-٠٧-٣٠T١٤:٣٧:٠٥ IDT" name="tearDown" finished-at="٢٠٢٦-٠٧-٣٠T١٤:٣٧:٠٥ IDT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.project.bank.system.login.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

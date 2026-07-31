@@ -12,5 +12,5 @@ public class LoginTest extends BaseSetup {
 		page.login("Rawad", "pass123");
 		Assert.assertTrue(driver.getTitle().contains("ParaBank"));
 	}
-	
+
 }

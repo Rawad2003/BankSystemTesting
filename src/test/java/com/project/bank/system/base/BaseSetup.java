@@ -34,7 +34,8 @@ public class BaseSetup {
 		System.out.println("========================================");
 		// System.out.print("Enter the URL to test (e.g. https://example.com): ");
 		// String url = sc.nextLine().trim();
-		String url = "https://parabank.parasoft.com/parabank/index.htm"; // paste the URL here directly to avoid Scanner issues in some environments
+		String url = "https://parabank.parasoft.com/parabank/index.htm"; // paste the URL here directly to avoid Scanner
+																			// issues in some environments
 
 		// ── Step 3: Setup driver automatically using WebDriverManager ─────────
 		switch (choice) {

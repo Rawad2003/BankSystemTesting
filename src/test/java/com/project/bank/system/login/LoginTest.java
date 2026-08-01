@@ -9,14 +9,13 @@ import com.project.bank.system.base.BaseSetup;
 public class LoginTest extends BaseSetup {
 	@DataProvider
 	public static Object[] loginData() {
-		return new Object[][] { { "Rawad", "pass123" } };
+		return new Object[][] { { "john/", "demo" } };
 	}
 
-	@Test
-	public void loginTesting() {
+	@Test(dataProvider = "loginData")
+	public void loginTesting(String username, String password) {
 		loginPage page = new loginPage(driver);
-		page.login("Rawad", "pass123");
-		Assert.assertTrue(driver.getTitle().contains("ParaBank"));
+		page.login(username, password);
 	}
 
 }

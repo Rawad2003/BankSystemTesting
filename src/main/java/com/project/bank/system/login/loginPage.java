@@ -8,6 +8,8 @@ public class loginPage {
 	By userName = By.name("username");
 	By password = By.name("password");
 	By loginButton = By.xpath("//input[contains(@value,'Log')]");
+	By errorMessage = By.cssSelector(".error");
+	By registerLink = By.linkText("Register");
 
 	public loginPage(WebDriver driver) {
 		this.driver = driver;
@@ -30,4 +32,6 @@ public class loginPage {
 		enterPassword(password);
 		clickLogin();
 	}
+
+	
 }

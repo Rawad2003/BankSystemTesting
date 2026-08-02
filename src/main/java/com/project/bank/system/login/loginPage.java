@@ -5,12 +5,12 @@ import org.openqa.selenium.WebDriver;
 
 public class loginPage {
 	private WebDriver driver;
-	
+
 	By userName = By.name("username");
 	By password = By.name("password");
 	By loginButton = By.xpath("//input[contains(@value,'Log')]");
 	By errorMessage = By.cssSelector(".error");
-	
+	By forgotLoginInfo = By.linkText("Forgot login info?");
 
 	public loginPage(WebDriver driver) {
 		this.driver = driver;
@@ -34,5 +34,4 @@ public class loginPage {
 		clickLogin();
 	}
 
-	
 }

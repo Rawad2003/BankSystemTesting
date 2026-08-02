@@ -27,13 +27,45 @@ public class registerPage {
 	public void enterFirstName(String firstNameText) {
 		driver.findElement(firstName).sendKeys(firstNameText);
 	}
+
 	public void enterLastName(String lastNameText) {
 		driver.findElement(lastName).sendKeys(lastNameText);
 	}
+
 	public void enterStreet(String streetText) {
 		driver.findElement(street).sendKeys(streetText);
 	}
+
 	public void enterCity(String cityText) {
 		driver.findElement(city).sendKeys(cityText);
 	}
+
+	public void enterZipCode(String zipCodeText) {
+		driver.findElement(zipCode).sendKeys(zipCodeText);
+	}
+
+	public void enterPhoneNumber(String phoneNumberText) {
+		driver.findElement(phoneNumber).sendKeys(phoneNumberText);
+	}
+
+	public void enterSSN(String ssnText) {
+		driver.findElement(ssn).sendKeys(ssnText);
+	}
+
+	public void enterState(String stateText) {
+		driver.findElement(state).sendKeys(stateText);
+	}
+
+	public void enterState(String stateText) {
+		driver.findElement(state).sendKeys(stateText);
+	}
+
+	public void enterState(String stateText) {
+		driver.findElement(state).sendKeys(stateText);
+	}
+
+	public void enterState(String stateText) {
+		driver.findElement(state).sendKeys(stateText);
+	}
+
 }

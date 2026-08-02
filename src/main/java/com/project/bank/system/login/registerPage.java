@@ -9,7 +9,7 @@ public class registerPage {
 	By registerLink = By.linkText("Register");
 	By firstName = By.id("customer.firstName");
 	By lastName = By.id("customer.lastName");
-	By street = By.id("customer.address.street");
+	By address = By.id("customer.address.street");
 	By city = By.id("customer.address.city");
 	By state = By.id("customer.address.state");
 	By zipCode = By.id("customer.address.zipCode");
@@ -32,12 +32,16 @@ public class registerPage {
 		driver.findElement(lastName).sendKeys(lastNameText);
 	}
 
-	public void enterStreet(String streetText) {
-		driver.findElement(street).sendKeys(streetText);
+	public void enterAddress(String addressText) {
+		driver.findElement(address).sendKeys(addressText);
 	}
 
 	public void enterCity(String cityText) {
 		driver.findElement(city).sendKeys(cityText);
+	}
+
+	public void enterState(String stateText) {
+		driver.findElement(state).sendKeys(stateText);
 	}
 
 	public void enterZipCode(String zipCodeText) {
@@ -52,20 +56,16 @@ public class registerPage {
 		driver.findElement(ssn).sendKeys(ssnText);
 	}
 
-	public void enterState(String stateText) {
-		driver.findElement(state).sendKeys(stateText);
+	public void enterUserName(String userNameText) {
+		driver.findElement(userName).sendKeys(userNameText);
 	}
 
-	public void enterState(String stateText) {
-		driver.findElement(state).sendKeys(stateText);
+	public void enterPassword(String passwordText) {
+		driver.findElement(password).sendKeys(passwordText);
 	}
 
-	public void enterState(String stateText) {
-		driver.findElement(state).sendKeys(stateText);
-	}
-
-	public void enterState(String stateText) {
-		driver.findElement(state).sendKeys(stateText);
+	public void enterConfirmPassword(String confirmPasswordText) {
+		driver.findElement(state).sendKeys(confirmPasswordText);
 	}
 
 }

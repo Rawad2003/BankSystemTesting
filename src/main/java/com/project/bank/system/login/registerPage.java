@@ -68,4 +68,18 @@ public class registerPage {
 		driver.findElement(state).sendKeys(confirmPasswordText);
 	}
 
+	public void register(String firstName, String lastName, String address, String city, String state, String zipCode,
+			String phoneNumber, String ssn, String userName, String password, String confirmPassword) {
+		enterFirstName(firstName);
+		enterLastName(lastName);
+		enterAddress(address);
+		enterCity(city);
+		enterState(state);
+		enterZipCode(zipCode);
+		enterPhoneNumber(phoneNumber);
+		enterSSN(ssn);
+		enterUserName(userName);
+		enterPassword(password);
+		enterConfirmPassword(confirmPassword);
+	}
 }

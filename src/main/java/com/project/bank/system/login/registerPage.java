@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 public class registerPage {
 	private WebDriver driver;
-
-	By registerLink = By.linkText("Register");
+	protected String REGISTER_URL="https://parabank.parasoft.com/parabank/register.htm";
+	
 	By firstName = By.id("customer.firstName");
 	By lastName = By.id("customer.lastName");
 	By address = By.id("customer.address.street");
@@ -22,6 +22,9 @@ public class registerPage {
 
 	public registerPage(WebDriver driver) {
 		this.driver = driver;
+	}
+	public void navigateToRegisterPage() {
+		driver.get(REGISTER_URL);
 	}
 
 	public void enterFirstName(String firstNameText) {

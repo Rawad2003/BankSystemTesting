@@ -8,7 +8,7 @@ import com.project.bank.system.base.BaseSetup;
 public class RegisterTest extends BaseSetup {
 	@DataProvider
 	public static Object[] registerData() {
-		return new Object[][] { { "john/", "demo" } };
+		return new Object[][] { { "john", "demo" } };
 	}
 
 	@Test(dataProvider = "registerData")

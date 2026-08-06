@@ -14,4 +14,7 @@ public class homePage {
 	By forgotLoginInfo = By.linkText("Forgot login info?");
 	By registerLink = By.linkText("Register");
 	By latestNews;
+	By atmServices;
+	By onlineServices;
+	
 }

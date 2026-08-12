@@ -14,10 +14,11 @@ public class RegisterTest extends BaseSetup {
 
 	@Test(description = "TC-REG-01")
 	public void registerPageLoad() {
-
+		registerPage page = new registerPage(driver);
+		page.navigateToRegisterPage();
 	}
 
-	@Test(dependsOnMethods = "registerPageLoad", description = "TC-REG-03 -> TC-REG-18", dataProvider = "registerData")
+	@Test(description = "TC-REG-03 -> TC-REG-18", dataProvider = "registerData")
 	public void registerTesting(String firstName, String lastName, String address, String city, String state,
 			String zipCode, String phoneNumber, String ssn, String username, String password, String confirmPassword) {
 		registerPage page = new registerPage(driver);

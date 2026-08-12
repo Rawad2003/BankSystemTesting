@@ -8,11 +8,11 @@ import com.project.bank.system.base.BaseSetup;
 public class RegisterTest extends BaseSetup {
 	@DataProvider
 	public static Object[] registerData() {
-		return new Object[][] { { "john", "demo" } };
+		return new Object[][] { { "Jane", "Doe","" } };
 	}
 
 	@Test(dataProvider = "registerData")
-	public void loginTesting(String username, String password) {
+	public void registerTesting(String username, String password) {
 		registerPage page = new registerPage(driver);
 	}
 }

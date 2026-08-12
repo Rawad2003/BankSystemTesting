@@ -97,4 +97,8 @@ public class registerPage {
 		enterPassword(password);
 		enterConfirmPassword(confirmPassword);
 	}
+
+	public void visibilityOfElements() {
+
+	}
 }

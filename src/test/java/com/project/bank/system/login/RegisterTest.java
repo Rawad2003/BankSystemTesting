@@ -12,7 +12,12 @@ public class RegisterTest extends BaseSetup {
 				"123-45-67890", "janedoe_<timestamp>", "Passw0rd!", "Passw0rd!" } };
 	}
 
-	@Test(description="TC-REG-03: Registration page loads directly via URL",dataProvider = "registerData")
+	@Test(description = "TC-REG-01")
+	public void registerPageLoad() {
+
+	}
+
+	@Test(dependsOnMethods = "registerPageLoad", description = "TC-REG-03 -> TC-REG-18", dataProvider = "registerData")
 	public void registerTesting(String firstName, String lastName, String address, String city, String state,
 			String zipCode, String phoneNumber, String ssn, String username, String password, String confirmPassword) {
 		registerPage page = new registerPage(driver);

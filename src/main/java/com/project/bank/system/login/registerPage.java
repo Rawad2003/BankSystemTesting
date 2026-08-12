@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 public class registerPage {
 	private WebDriver driver;
-	protected String REGISTER_URL="https://parabank.parasoft.com/parabank/register.htm";
-	
+	protected String REGISTER_URL = "https://parabank.parasoft.com/parabank/register.htm";
+
 	By firstName = By.id("customer.firstName");
 	By lastName = By.id("customer.lastName");
 	By address = By.id("customer.address.street");
@@ -19,10 +19,22 @@ public class registerPage {
 	By password = By.id("customer.password");
 	By confirmPassword = By.id("repeatedPassword");
 	By registerButton = By.xpath("//input[@value='Register']");
+	By firstNameError = By.id("customer.firstName.errors");
+	By lastNameError = By.id("customer.lastName.errors");
+	By addressError = By.id("customer.address.street.errors");
+	By cityError = By.id("customer.address.city.errors");
+	By stateError = By.id("customer.address.state.errors");
+	By zipCodeError = By.id("customer.address.zipCode.errors");
+	By phoneNumberError = By.id("customer.phoneNumber.errors");
+	By ssnError = By.id("customer.ssn.errors");
+	By userNameError = By.id("customer.username.errors");
+	By passwordError = By.id("customer.password.errors");
+	By confirmPasswordError = By.id("repeatedPassword.errors");
 
 	public registerPage(WebDriver driver) {
 		this.driver = driver;
 	}
+
 	public void navigateToRegisterPage() {
 		driver.get(REGISTER_URL);
 	}

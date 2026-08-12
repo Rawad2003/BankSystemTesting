@@ -14,7 +14,9 @@ public class RegisterTest extends BaseSetup {
 
 	@Test(dataProvider = "registerData")
 	public void registerTesting(String firstName, String lastName, String address, String city, String state,
-			String zipCode, String phoneNumber, String ssn, String username, String password) {
+			String zipCode, String phoneNumber, String ssn, String username, String password, String confirmPassword) {
 		registerPage page = new registerPage(driver);
+		page.register(firstName, lastName, address, city, state, zipCode, phoneNumber, ssn, username, password,
+				confirmPassword);
 	}
 }

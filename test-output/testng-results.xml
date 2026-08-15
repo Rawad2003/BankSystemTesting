@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="٢٠٢٦-٠٨-١٥T٢٢:٤٨:٣٥ IDT" name="Default suite" finished-at="٢٠٢٦-٠٨-١٥T٢٢:٤٨:٣٦ IDT" duration-ms="1620">
+  <suite started-at="٢٠٢٦-٠٨-١٥T٢٢:٥٠:١٨ IDT" name="Default suite" finished-at="٢٠٢٦-٠٨-١٥T٢٢:٥٠:٢١ IDT" duration-ms="2862">
     <groups>
     </groups>
-    <test started-at="٢٠٢٦-٠٨-١٥T٢٢:٤٨:٣٥ IDT" name="Default test" finished-at="٢٠٢٦-٠٨-١٥T٢٢:٤٨:٣٦ IDT" duration-ms="1620">
+    <test started-at="٢٠٢٦-٠٨-١٥T٢٢:٥٠:١٨ IDT" name="Default test" finished-at="٢٠٢٦-٠٨-١٥T٢٢:٥٠:٢١ IDT" duration-ms="2862">
       <class name="com.project.bank.system.login.RegisterTest">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.project.bank.system.login.RegisterTest@2b662a77]" started-at="٢٠٢٦-٠٨-١٥T٢٢:٤٨:٢١ IDT" name="initDriver" finished-at="٢٠٢٦-٠٨-١٥T٢٢:٤٨:٣٥ IDT" duration-ms="14022" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.project.bank.system.login.RegisterTest@2b662a77]" started-at="٢٠٢٦-٠٨-١٥T٢٢:٥٠:٠٥ IDT" name="initDriver" finished-at="٢٠٢٦-٠٨-١٥T٢٢:٥٠:١٨ IDT" duration-ms="13206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="registerTesting(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.project.bank.system.login.RegisterTest@2b662a77]" started-at="٢٠٢٦-٠٨-١٥T٢٢:٤٨:٣٥ IDT" name="registerTesting" description="TC-REG-01 -&gt; TC-REG-16" data-provider="registerData" finished-at="٢٠٢٦-٠٨-١٥T٢٢:٤٨:٣٦ IDT" duration-ms="1514" status="PASS">
+        <test-method signature="registerTesting(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.project.bank.system.login.RegisterTest@2b662a77]" started-at="٢٠٢٦-٠٨-١٥T٢٢:٥٠:١٨ IDT" name="registerTesting" description="TC-REG-01 -&gt; TC-REG-16" data-provider="registerData" finished-at="٢٠٢٦-٠٨-١٥T٢٢:٥٠:٢١ IDT" duration-ms="2792" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,7 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTesting -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.project.bank.system.login.RegisterTest@2b662a77]" started-at="٢٠٢٦-٠٨-١٥T٢٢:٤٨:٣٦ IDT" name="tearDown" finished-at="٢٠٢٦-٠٨-١٥T٢٢:٤٨:٣٧ IDT" duration-ms="264" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.project.bank.system.login.RegisterTest@2b662a77]" started-at="٢٠٢٦-٠٨-١٥T٢٢:٥٠:٢١ IDT" name="tearDown" finished-at="٢٠٢٦-٠٨-١٥T٢٢:٥٠:٢١ IDT" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

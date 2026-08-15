@@ -14,8 +14,7 @@ public class RegisterTest extends BaseSetup {
 
 	@Test(description = "TC-REG-01 -> TC-REG-16", dataProvider = "registerData")
 	public void registerTesting(String firstName, String lastName, String address, String city, String state,
-			String zipCode, String phoneNumber, String ssn, String username, String password, String confirmPassword)
-			throws Exception {
+			String zipCode, String phoneNumber, String ssn, String username, String password, String confirmPassword) {
 		registerPage page = new registerPage(driver);
 		page.navigateToRegisterPage();
 		page.register(firstName, lastName, address, city, state, zipCode, phoneNumber, ssn, username, password,

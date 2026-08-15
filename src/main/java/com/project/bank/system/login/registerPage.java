@@ -88,7 +88,7 @@ public class registerPage {
 	}
 
 	public void register(String firstName, String lastName, String address, String city, String state, String zipCode,
-			String phoneNumber, String ssn, String userName, String password, String confirmPassword) {
+			String phoneNumber, String ssn, String userName, String password, String confirmPassword) throws Exception {
 		enterFirstName(firstName);
 		enterLastName(lastName);
 		enterAddress(address);
@@ -101,6 +101,7 @@ public class registerPage {
 		enterPassword(password);
 		enterConfirmPassword(confirmPassword);
 		clickRegisterButton();
+		Thread.sleep(1000);
 	}
 
 }

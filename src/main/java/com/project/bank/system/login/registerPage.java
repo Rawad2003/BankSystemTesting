@@ -83,6 +83,10 @@ public class registerPage {
 		driver.findElement(state).sendKeys(confirmPasswordText);
 	}
 
+	public void clickRegisterButton() {
+		driver.findElement(registerButton).click();
+	}
+
 	public void register(String firstName, String lastName, String address, String city, String state, String zipCode,
 			String phoneNumber, String ssn, String userName, String password, String confirmPassword) {
 		enterFirstName(firstName);
@@ -96,9 +100,7 @@ public class registerPage {
 		enterUserName(userName);
 		enterPassword(password);
 		enterConfirmPassword(confirmPassword);
+		clickRegisterButton();
 	}
 
-	public void visibilityOfElements() {
-
-	}
 }
